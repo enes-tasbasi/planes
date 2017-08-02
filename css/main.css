@@ -1,0 +1,84 @@
+
+/*	General
+============================*/
+/*
+ * {
+	outline: 1px solid red;
+}*/
+
+body {
+	height: 100%;
+    background: linear-gradient(to right, #d4cccc 175px, transparent 170px)
+}
+	
+a, a:hover, a:visited, a:link {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+/*Header */
+/*============================*/
+
+section .header {
+	height: 62px;
+	width: 100%;
+	background-color: #a5a0a0;
+	position: relative;
+	overflow: hidden;
+
+}
+
+	.header h1 {
+		margin-top: 0px;
+		padding: .3em;
+		font-family: 'Lobster';
+	}
+
+/*	Navigation Bar
+================================*/
+
+section .nav-bar {
+	float: left;
+	width: 175px;
+	margin-right: 10px;
+}
+
+	.nav-bar ul {
+		margin: 0;
+    	padding: 0;
+		left: 0;		
+		list-style: none;
+		width: 100%
+	}
+
+	.nav-bar ul li {
+		font-size: 20px;
+		padding: 10px;
+		padding-left: 25px;
+		width: 100%;
+	}
+
+	.nav-bar ul li:hover {
+		background-color: #8c8983;
+	}
+
+
+/*	Main Visual
+===================================*/
+
+.main-visual {
+	margin: 10px;
+	overflow: hidden;
+	padding: 10px;
+
+}
+
+	.main-visual img {
+		width: 500px;
+	}
+
+
+
