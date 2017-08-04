@@ -10,7 +10,7 @@ body {
 	height: 100%;
 	background: linear-gradient(to right, #d4cccc 175px, transparent 170px);
 }
-	
+
 a, a:hover, a:visited, a:link {
 	color: black;
 	text-decoration: none;
@@ -31,11 +31,12 @@ section .header {
 
 }
 
-	.header span {
+	.navButton {
 		float: left;
 		font-size: 20px;
 		margin: 19px 20px 20px 14px;
 		display: none;
+		background-color: inherit;
 	}
 
 	.header h1 {
@@ -53,6 +54,7 @@ section .nav-bar {
 	margin-right: 10px;
 	
 }
+
 
 	.nav-bar ul {
 		margin: 0;
@@ -84,9 +86,17 @@ section .nav-bar {
 		display: none;
 	}
 
-	.header span {
+	.header a {
 		display: block;
 	}
+}
+
+.openPanel {
+	display: block;
+}
+
+.bodyBackground {
+	background: linear-gradient(to right, #d4cccc 175px, transparent 170px);
 }
 
 
