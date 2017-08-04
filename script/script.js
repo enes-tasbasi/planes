@@ -3,6 +3,7 @@ $("header .navButton").on('click', showNavBar);
 
 function showNavBar() {
 	$('section nav').toggleClass('openPanel');
+	$('.painter').toggleClass('openPainter');
 	$('body').toggleClass('bodyBackground');
 }
 
