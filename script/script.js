@@ -13,6 +13,7 @@ function openFromNav() {
 	$.get("posts/" + $(this).text() + ".html", function(data) {
 		$(".main-visual").html(data);
 	});
+	showNavBar();
 }
 
 
