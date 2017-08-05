@@ -81,6 +81,7 @@ section .nav-bar {
 		padding: 10px;
 		padding-left: 25px;
 		width: 100%;
+		text-transform: capitalize;
 	}
 
 	.nav-bar ul li:hover {
@@ -127,6 +128,7 @@ section .nav-bar {
 	overflow: hidden;
 	padding: 10px;
 	z-index: 0;
+	text-align: center;
 
 }
 

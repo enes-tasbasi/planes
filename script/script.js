@@ -7,6 +7,15 @@ function showNavBar() {
 	$('body').toggleClass('bodyBackground');
 }
 
-$.get("posts/main.html", function(data) {
+$('ul li a').on('click', openFromNav);
+
+function openFromNav() {
+	$.get("posts/" + $(this).text() + ".html", function(data) {
+		$(".main-visual").html(data);
+	});
+}
+
+
+$.get("posts/home.html", function(data) {
 	$(".main-visual").html(data);
 });
